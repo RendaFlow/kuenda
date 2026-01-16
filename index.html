@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#0A1628" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <title>Kuenda - Ganhe Dinheiro Assistindo Anúncios</title>
+    <meta name="description" content="Kuenda - Ganhe dinheiro real assistindo anúncios. A plataforma número 1 de Angola para ganhos online em Kwanzas." />
+    <meta name="keywords" content="ganhar dinheiro, Angola, anúncios, AOA, Kwanzas, renda extra" />
+    <meta name="author" content="Kuenda" />
+
+    <meta property="og:title" content="Kuenda - Ganhe Dinheiro Assistindo Anúncios" />
+    <meta property="og:description" content="A plataforma número 1 de Angola para ganhos online. Assista anúncios e receba em Kwanzas." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_AO" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Kuenda" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+    
+    <style>
+      :root {
+        --sat: env(safe-area-inset-top);
+        --sar: env(safe-area-inset-right);
+        --sab: env(safe-area-inset-bottom);
+        --sal: env(safe-area-inset-left);
+      }
+      
+      .safe-area-inset-top {
+        padding-top: env(safe-area-inset-top);
+      }
+      
+      .safe-area-inset-bottom {
+        padding-bottom: env(safe-area-inset-bottom);
+      }
+      
+      body {
+        overscroll-behavior-y: contain;
+      }
+      
+      #root:empty {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: #0A1628;
+      }
+      
+      #root:empty::after {
+        content: "";
+        width: 48px;
+        height: 48px;
+        border: 4px solid #1a2744;
+        border-top-color: #EAB308;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
